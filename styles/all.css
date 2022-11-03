@@ -37,6 +37,7 @@ section#login {
     border-radius: 20px;
     overflow: hidden;  /*tudo que estiver fora da borda delimitada acima ficará escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.243);
+    
     /*animação da section*/
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -44,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url('../images/plenio.jpg') no-repeat center left;
+    background: #5f2c82 url('../images/plenio.jpg') no-repeat center right;
     background-size: cover;
     height: 200px;
 }
